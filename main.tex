@@ -1,0 +1,19 @@
+% This example demonstrates adding a custom TrueType font
+% to your Overleaf project. The custom font is Delphine, 
+% which was sourced from https://sjfonts.sourceforge.net
+
+\documentclass{article}
+\usepackage[T1]{fontenc} 
+\usepackage{ebrima}
+
+\title{Example: Using Ebrima TrueType Font}
+\author{Ibirisol Fontes Ferreira}
+
+\begin{document}
+\maketitle
+
+Normal Font Text.
+
+\Huge\ebrima{Custom \textbf{Ebrima} Text! À Á Â Ä Å á â ã ä å è é ê ë È É Ê Ë Ò Ó Ô Õ Ö with \ebrimabd{Bold}!}
+
+\end{document}
