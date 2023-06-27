@@ -12,14 +12,14 @@ LaTeX package loading Ebrima TTF font for personal use]
 \IfFileExists{ebrima.ttf}{
     \newcommand\ebrima[1]{\usefont{T1}{ebrima}{m}{n} ##1 }
 }{
-    \errmessage{The Embrima TTF file is not present fallbacking to normal text}
+    \errmessage{The Ebrima TTF file is not present fallbacking to normal text}
     \newcommand\ebrima[1]{ ##1 }
 }
 
 \IfFileExists{ebrimabd.ttf}{
     \newcommand\ebrimabd[1]{\usefont{T1}{ebrima}{b}{n} ##1 }
 }{
-    \errmessage{The Embrima Bold TTF file is not present fallbacking to normal text}
+    \errmessage{The Ebrima Bold TTF file is not present fallbacking to normal text}
     \newcommand\ebrimabd[1]{ ##1 }
 }
 

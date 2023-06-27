@@ -8,4 +8,4 @@ It is necessary to have the _Ebrima.ttf_ and _Ebrimabd.ttf_, which need the spec
 
 Put the Ebrima TTF files in this directory and use it as demonstrated in the _main.tex_ file.
 
-During the compiling, there are two possible errors if no Embrima TTF files are incorporated into the project directory.
+During the compiling, there are two possible errors if no Ebrima TTF files are incorporated into the project directory.
